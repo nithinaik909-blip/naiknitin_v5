@@ -744,7 +744,7 @@ export default function App() {
 
                   {error&&<div style={{margin:10,padding:10,background:"#fef2f2",border:"1px solid #fecaca",borderRadius:8,color:"#dc2626",fontSize:12,lineHeight:1.6}}>
                     ⚠ {error}
-                    <div style={{marginTop:6,fontSize:10,color:"#9ca3af"}}>If you see "<!DOCTYPE": deploy <code>api/claude.js</code> to Vercel and add <code>ANTHROPIC_API_KEY</code> in Vercel → Settings → Environment Variables.</div>
+                    <div style={{marginTop:6,fontSize:10,color:"#9ca3af"}}>If you see "&lt;!DOCTYPE": deploy <code>api/claude.js</code> to Vercel and add <code>ANTHROPIC_API_KEY</code> in Vercel → Settings → Environment Variables.</div>
                   </div>}
 
                   {loading&&<div style={{padding:36,textAlign:"center",color:mc.color}}><div style={{display:"flex",justifyContent:"center",marginBottom:12}}><Spin color={mc.color} size={26}/></div><div style={{fontSize:13}}>{loadMsg}</div></div>}
